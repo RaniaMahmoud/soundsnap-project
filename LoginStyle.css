@@ -1,0 +1,174 @@
+body{
+    margin:0;
+}
+.section1{
+    width: 35%;
+    height: 100%;
+    float: left;
+}
+.section1 div#icon{
+    float: left;
+    width: 40%;
+    margin-top: 45px;
+    margin-left: 65px;
+}
+.section2{
+    width: 65%;
+    float: left;
+    height: 100%;
+    background-color: #000;
+    text-align: center;
+    color: #fff;
+}
+/* .subtitle{
+    color: #fff;
+    font-size: 16px;
+    line-height: 24px;
+    margin-bottom: 20px;
+} */
+.section2-content{
+    color: #fff;
+    margin-top: 265px;
+}
+.content-head{
+    color: #555;
+    margin: 0;
+    padding: 6px 0 0;
+    font-size: 32px;
+    text-transform: uppercase;
+    font:normal 18px HelveticaNeueLTPro-Bold,Helvetica,sans-serif;
+
+}
+.content-sub{
+    color: #ffffff;
+    font:normal 28px HelveticaNeueLTPro-Bold,Helvetica,sans-serif;
+    margin: 16px 20px 26px 20px;
+}
+.content-foot{
+    color: #828282;
+    font:normal 16px HelveticaNeueLTPro-Bold,Helvetica,sans-serif;
+    margin-bottom:20px;
+}
+h1{
+    display: inline-block;
+    font:normal 52px/64px HelveticaNeueLTPro-Bold,Helvetica,sans-serif;
+    color: #333;
+    font-size: 30px;
+    text-align: left;
+    font-weight: bold;
+
+}
+#form{
+    margin: 20px 0 20px 0;
+    padding-left: 65px;
+    padding-top: 100px;
+}
+.userName,.password,.Rpassword{
+    position: relative;
+    margin: 20px 0 0 0;
+    color: #828282;
+    font:normal 14px/1.43 HelveticaNeueLTPro-Roman,Helvetica,sans-serif;
+}
+.namebox,.passwordbox,.Rpasswordbox{
+    appearance: none;
+    color: #333;
+    border: #d5d5d5 1px solid;
+    border-radius: 4px;
+    width: 80%;
+    padding: 19px 15px 7px 16px;
+}
+input:focus{
+    outline-color: #52d9a0;
+
+}
+.fpassword{
+    position: absolute;
+    right: 120px;
+    top: 16px;
+    color: #52d9a0;
+    text-decoration: none;
+    font:normal 14px/1.43 HelveticaNeueLTPro-Roman,Helvetica,sans-serif;
+}
+.submitbutton{
+    width: 80%;
+    border-radius: 4px;
+    margin: 24px 0;
+    background-color: #fff;
+    border: 1px solid #1a1a1a;
+    padding: 13px 26px;
+    font-size: 1em;
+    line-height: 1.43;
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    font-family: HelveticaNeueLTPro-Bold,Helvetica,sans-serif;
+}
+
+.signin{
+    color: #828282;
+    font:normal 14px/1.43 HelveticaNeueLTPro-Roman,Helvetica,sans-serif;
+}
+a{
+    color: #52d9a0;
+    text-decoration: none;
+    font:normal 14px/1.43 HelveticaNeueLTPro-Roman,Helvetica,sans-serif;
+}
+
+.labEmail{
+    position: absolute;
+    right: 370px;
+    top: 5px;
+    color: #828282;
+    text-decoration: none;
+    font:normal 11.5px HelveticaNeueLTPro-Roman,Helvetica,sans-serif;
+}
+.labName{
+    position: absolute;
+    right: 310px;
+    top: 5px;
+    color: #828282;
+    text-decoration: none;
+    font:normal 11.5px HelveticaNeueLTPro-Roman,Helvetica,sans-serif;
+}
+.labpass{
+    position: absolute;
+    right: 400px;
+    top: 5px;
+    color: #828282;
+    text-decoration: none;
+    font:normal 11.5px HelveticaNeueLTPro-Roman,Helvetica,sans-serif;
+}
+.labRpass{
+    position: absolute;
+    right: 357px;
+    top: 5px;
+    color: #828282;
+    text-decoration: none;
+    font:normal 11.5px HelveticaNeueLTPro-Roman,Helvetica,sans-serif;
+}
+.alert{
+    color: #828282;
+    font:normal 13px HelveticaNeueLTPro-Roman,Helvetica,sans-serif;
+}
+.create-h{
+    display: inline-block;
+    font:normal 90px HelveticaNeueLTPro-Bold,Helvetica,sans-serif;
+    color: #333;
+    font-size: 40px;
+    text-align: left;
+    font-weight: bold;
+}
+.agreebox{
+    color: #828282;
+    font:normal 15px HelveticaNeueLTPro-Roman,Helvetica,sans-serif;
+}
+.s1,.s2,.s3,.s4,.s5,.s6,.s7,.s8{
+    position: relative;
+    width: 3%;
+    opacity: 0.67;
+    top: 210px;
+}
+.icons img{
+    width: 6%;
+    padding-left: 10px;
+}

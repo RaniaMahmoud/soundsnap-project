@@ -1,0 +1,621 @@
+body {
+    min-width: 800px;
+    margin: 0px;
+}
+#content{
+    padding-top: 70px;
+}
+#header{
+    position: fixed;
+    height: 10%;
+    width: 100%;
+    display: inline-block;
+    background: #fff;
+    box-shadow: inset 0 -1px 0 0 rgb(0 0 0 / 16%);
+
+}
+.Icon{
+    position: fixed;
+    margin-top: 19px;
+    margin-left: 30px;
+}
+.Searc{
+    position: fixed;
+    margin-left: 15%;
+    margin-top: 10px;
+}
+#Inputsearch{
+    height: 45px;
+    width: 280%;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #f3f3f3;
+    font-size: 16px;
+    border: 1px solid #d5d5d5;
+    border-radius: 4px;
+    padding: 14px 14px 14px 51px;
+}
+
+.input:focus{
+    outline-color: #52d9a0;
+}
+.h-sub{
+    display: inline-block;
+    margin-left: 62.50%;
+    margin-top: 10px;
+}
+ul{
+    list-style: none;
+    position: absolute;
+    height:72px;
+}
+ul li a:hover{
+    opacity: 0.5;
+}
+
+ul li a{
+    display: inline-block;
+    font:normal 17px Helvetica,sans-serif;
+    text-decoration: none;
+    color: #333;
+    
+}
+li{
+    float: left;
+}
+#Register,#Login{
+    font-weight: bold;
+}
+#socialMedia{
+    float: left;
+    margin-top: -88px;
+    margin-left: 450px;
+}
+
+.searchicon {
+    position:absolute;
+    bottom:12px;
+    right:210px;
+    width:24px;
+    height:24px;
+}
+
+.section1 .span-one{
+    background-color: #000;
+    width: 50%;
+    height: 500px;
+    float: left; 
+}
+.span-two{
+    width: 50%;
+    float: left;
+    height: 500px;
+    overflow:hidden;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-image: url("https://www.soundsnap.com/themes/soundsnap4/assets/home/hero-bg-2.jpg");
+}
+span.span-one h1{
+    color: #fff;
+    font-family: HelveticaNeueLTPro-Roman,Helvetica,sans-serif;
+    letter-spacing: normal;
+    font-size: 55px;
+    font-style: inherit;
+    max-width: 400px;
+    text-align: left;
+    padding-left: 55px;
+    padding-top: 50px;
+    padding-right: 100px;
+}
+span.span-one p{
+    color: #fff;
+    font-family: HelveticaNeueLTPro-Roman,Helvetica,sans-serif;
+    letter-spacing: normal;
+    font-size: 16px;
+    max-width: 350px;
+    font-style: inherit;
+    text-align: left;
+    padding-left: 55px;
+    padding-right: 70px;
+    margin-top: -15px;
+}
+
+span.span-one button{
+    color: #fff;
+    font-family: HelveticaNeueLTPro-Roman,Helvetica,sans-serif;
+    letter-spacing: normal;
+    font-weight: bold;
+    font-style: inherit;
+    text-align: left;
+    padding: 17px 40px 19px;
+    margin-top: 15px;
+    margin-left: 200px;
+    border: 1px solid #fff;
+    font-size: 18px;
+    text-align: center;
+    background-color: Transparent;  
+    height: 50px;
+    border-radius: 4px;
+}
+.span-one p,h1{
+     margin-left: 150px;
+ }
+.span-one button{
+    margin-right: 150px;
+}
+.section2{
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 160px;
+
+}
+#sectionp div{
+    float: left;
+    margin-left: 10px;
+
+}
+/* #sectionp div img{
+    height: 142px;
+    width: 188px;
+    border-radius: 4px;
+    border: 0;
+    background: linear-gradient(to top,rgba(0,0,0,.8),rgba(16,22,35,.26));
+} */
+button#b1,#b2,#b3,#b4,#b5,#b6{
+    border: 1px #000 hidden; 
+    color: #fff;
+    font-family: HelveticaNeueLTPro-Roman,Helvetica,sans-serif;
+    letter-spacing: normal;
+    font-weight: bold;
+    font-style: inherit;
+    text-align: center;
+    background-color: #333;  
+    border-radius: 4px;
+    font-size: 15px;
+    height: 142px;
+    width: 188px;
+    background-color: linear-gradient(to top,rgba(0,0,0,.8),rgba(16,22,35,.26));
+    top: -100px;
+}
+button#b1{
+    background-image: url("https://www.soundsnap.com/themes/soundsnap4/assets/taxonomy_images/walla.jpg?1614594609");
+}
+button#b2{
+    background-image: url("https://www.soundsnap.com/themes/soundsnap4/assets/taxonomy_images/whoosh.jpg?1614594609");
+}
+button#b3{
+    background-image: url("https://www.soundsnap.com/themes/soundsnap4/assets/taxonomy_images/wind.jpg?1614594609");
+}
+button#b4{
+    background-image: url("https://www.soundsnap.com/themes/soundsnap4/assets/taxonomy_images/footsteps.jpg?1614594609");
+}
+button#b5{
+    background-image: url("https://www.soundsnap.com/themes/soundsnap4/assets/taxonomy_images/cartoon.jpg?1614594609");
+}
+button#b6{
+    background-image: url("https://www.soundsnap.com/themes/soundsnap4/assets/taxonomy_images/drones.jpg?1614594609");
+}
+button#b7{
+    background-image: url("Website resources/menus_and_interfaces.jpg");
+}
+button#b8{
+    background-image: url("https://www.soundsnap.com/themes/soundsnap4/assets/taxonomy_images/ambience.jpg?1614594609");
+}
+#sectionp div{
+    height: 142px;
+    width: 188px;
+}
+button#b1:hover,button#b2:hover,button#b3:hover,button#b4:hover,button#b8:hover,button#b7:hover,button#b6:hover,button#b5:hover,button#a1:hover,button#a2:hover,button#a3:hover,button#a4:hover{
+    background: #e1f8f1;
+    color: #2d4a41;
+    background-color: linear-gradient(to top,rgba(0,0,0,.8),rgba(16,22,35,.26));
+
+}
+
+#sectionp2 div#Fdiv{
+    float: left;
+    margin-left: 10px;
+}
+/* #sectionp2 div img{
+    height: 142px;
+    width: 585px;
+    border-radius: 4px;
+    border: 0;
+    opacity: 0.9;
+    top: 10px;
+} */
+button#b7,#b8{
+    border: 1px #000 hidden; 
+    color: #fff;
+    font-family: HelveticaNeueLTPro-Roman,Helvetica,sans-serif;
+    letter-spacing: normal;
+    font-weight: bold;
+    font-style: inherit;
+    text-align: center;
+    background-color: #333;  
+    border-radius: 4px;
+    font-size: 15px;
+    height: 150px;
+    width: 584px;
+    margin-top: 10px;
+    background-repeat: no-repeat;
+
+}
+
+#sectionp2 div{
+    height: 142px;
+    width: 564px;
+}
+#sectionp2 div#Sdiv{
+    float: left;
+    margin-left: 30px;
+}
+.p-sub{
+    margin-left: 10px;
+    margin-bottom: 30px;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: left;
+    color: inherit;
+    font-weight: 600;
+    font-family: HelveticaNeueLTPro-Bold,Helvetica,sans-serif;
+    color: #333;
+
+}
+.section3{
+    float: left;
+    margin-top: 100px;
+    margin-left: 160px;
+}
+.tabs span{
+    display: inline-block;
+    margin-left: 0px;
+    padding-bottom:10px;
+    margin-bottom: 0px; 
+}
+.tabs{
+    margin-left: 10px;
+    border-bottom: 1px solid #ececec;
+}
+.tabs span.tab1{
+    color: #1a1a1a;
+    border-bottom: 2px solid #1a1a1a;
+    font-family: HelveticaNeueLTPro-Bold,Helvetica,sans-serif;
+    color: #1a1a1a;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+.tabs span.tab2,span.tab3{
+    font-family: HelveticaNeueLTPro-Bold,Helvetica,sans-serif;
+    color: #828282;
+    padding: 10px 20px;
+    cursor: pointer;
+
+}
+span.tab2:hover{
+    color: #1a1a1a;
+    border-bottom: 2px solid #1a1a1a;
+    font-family: HelveticaNeueLTPro-Bold,Helvetica,sans-serif;
+    color: #1a1a1a;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+span.tab3:hover{
+    color: #1a1a1a;
+    border-bottom: 2px solid #1a1a1a;
+    font-family: HelveticaNeueLTPro-Bold,Helvetica,sans-serif;
+    color: #1a1a1a;
+    padding: 15px 20px;
+    cursor: pointer;
+}
+#sectionp3 div#Tdiv,div#Frdiv,div#FIdiv,div#SXdiv{
+    float: left;
+    margin-left: 10px;
+
+}
+button#a1{
+    background-image: url("	https://www.soundsnap.com/themes/soundsnap4/assets/taxonomy_images/beverly_hills.jpg?1629716532");
+}
+button#a2{
+    background-image: url("https://www.soundsnap.com/themes/soundsnap4/assets/taxonomy_images/unleash_the_hounds.jpg?1629716532");
+}
+button#a3{
+    background-image: url("	https://www.soundsnap.com/themes/soundsnap4/assets/taxonomy_images/warped.jpg?1629716532");
+}
+button#a4{
+    background-image: url("https://www.soundsnap.com/themes/soundsnap4/assets/taxonomy_images/spandex_and_capes.jpg?1629716532");
+}
+button#a1,button#a2,button#a3,button#a4{
+    border: 1px #000 hidden; 
+    color: #fff;
+    font-family: HelveticaNeueLTPro-Roman,Helvetica,sans-serif;
+    letter-spacing: normal;
+    font-weight: bold;
+    font-style: inherit;
+    text-align: center;
+    background-color: #333;  
+    border-radius: 4px;
+    font-size: 15px;
+    height: 140px;
+    width: 280px;
+    background-repeat: no-repeat;
+    background-size:cover;
+
+}
+
+.section4{
+    display: inline-block;
+    margin-top: 50px;
+    margin-left: 160px;
+}
+#sectionp4 div{
+    float: left;
+    margin-left: 10px;
+}
+.buttonS4{
+    border: 1px #000 hidden; 
+    color: #fff;
+    font-family: HelveticaNeueLTPro-Roman,Helvetica,sans-serif;
+    letter-spacing: normal;
+    font-weight: bold;
+    font-style: inherit;
+    text-align: center;
+    background-color: #333;  
+    border-radius: 4px;
+    font-size: 15px;
+    height: 142px;
+    width: 188px;
+    background-color: linear-gradient(to top,rgba(0,0,0,.8),rgba(16,22,35,.26));
+    top: -100px;
+}
+.section5{
+    padding-top: 80px;
+    padding-left: 165px;
+    margin-top: 80px;
+    background: #f4f9f7;
+}
+.section5-sub h2{
+    font-size: 29px;
+    line-height: 38px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    text-align: left;
+    font-weight: bold;
+    color: inherit;
+    font-family: HelveticaNeueLTPro-Bold,Helvetica,sans-serif;
+    color: #333;
+}
+#fs div {
+    display: inline-block;
+    margin-left: 0px;
+    padding-bottom:10px;
+    margin-bottom: 0px; 
+}
+.U,.S{
+    margin: 12px 10px 14px 10px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 900;
+    color: #828282;
+    min-width: 272px;
+    padding-right: 24px;
+    float: left;
+}
+/* .Sfact{
+    margin: 12px 10px 14px 10px;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 900;
+    color: #828282;
+    min-width: 272px;
+    padding-right: 24px;
+    float: left;
+} */
+span.users,span.sounds{
+    display: inline-block;
+    padding-bottom:10px; 
+    font: normal 42px/38px HelveticaNeueLTPro-Bold,Helvetica,sans-serif;
+    display: block;
+    color: #2d4a41;
+    font-size: 45px;
+    line-height: 38px;
+    font-weight: bold;
+}
+.fs{
+    display: table-cell;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 900;
+    color: #828282;
+    min-width: 272px;
+    padding-right: 24px;
+}
+.U p,.S p{
+    font: normal 18px/5px HelveticaNeueLTPro-Bold,Helvetica,sans-serif;
+    font-weight: bold;
+}
+/* .Sfact p{
+    font: normal 18px/5px HelveticaNeueLTPro-Bold,Helvetica,sans-serif;
+    font-weight: bold;
+} */
+.section5-sub2{
+    height: 50%;
+    display: inline-block;
+    margin-top: 100px;
+    margin-left: 10px;
+    display: table;
+    font: normal 14px HelveticaNeueLTPro-Roman,Helvetica,sans-serif;
+    color: #333;
+    font-size: 16px;
+    line-height: 24px;
+    padding-right: 0px;
+}
+.section5-sub2 h4{
+    display: block;
+    color: #2d4a41;
+    font-size: 25px;
+    line-height: 38px;
+    font-weight: bold;
+}
+
+.sub2{
+    float: left;
+    width: 20%;
+}
+#F1,#F2,#F3,#F4{
+    padding-right: 50px;
+}
+.sub2-sub p{
+    padding-top: -20px;
+    font: normal 20px/20px HelveticaNeueLTPro-Bold,Helvetica,sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    color: #828282;
+    margin-top: 0.5em;
+}
+.span-one{
+    background-color: #000;
+    width: 37%;
+    height: 653px;
+    float: left;
+    
+}
+.section6 .span-two{
+    width: 63%;
+    float: left;
+    height: 653px;
+    overflow:hidden;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url("	https://www.soundsnap.com/themes/soundsnap4/assets/home/home-clients-6.jpg");
+}
+.secton6-sub{
+    margin-left: 70px;
+    margin-bottom: 50px;
+    font-family: HelveticaNeueLTPro-Bold,Helvetica,sans-serif;
+    color: #fff;
+    text-align: left;
+    padding-left: 100px;
+    padding-top: 240px;
+    font-size: 28px;
+    line-height: 38px;
+}
+.section7-sub{
+    margin-top: 100px;
+}
+.section7{
+    background-color: #000;
+    width: 100%;
+    height: 350px;  
+    float: left;  
+    text-align: center;
+    font-family: HelveticaNeueLTPro-Bold,Helvetica,sans-serif;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+
+}
+.section7 div h2{
+    margin-bottom: 0px;
+}
+.section7 a{
+    color: #00ffaf;
+    text-decoration: none;
+    font:normal 43px HHelveticaNeueLTPro-Bold,Helvetica,sans-serif;
+    font-weight: bold;
+
+}
+
+.section7 a:hover{
+    color: #52d9a0;
+}
+
+.section8{
+    width: 100%;
+    height: 400px;  
+    float: left;  
+    font-family: HelveticaNeueLTPro-Bold,Helvetica,sans-serif;
+    background-color: #000;
+}
+.section8-one span{
+    float: left;
+    margin-left: 165px;
+    margin-top: 60px;
+    font-size: 16px;
+}
+.section8-one span#FSpan p{
+    font-weight: bold;
+    margin-top: 0px;
+    color: #fff;
+}
+.section8-one span#FSpan{
+    margin-left: 40px;
+    margin-top: 7px;
+}
+span ul{
+    margin-top: 0px;    
+}
+.section8-one span#FSpan div{
+    color: #999;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 15px;
+    line-height: 30px;
+}
+.section8-one span#FSpan div a{
+    color: #999;
+    text-align: left;
+    font-size: 15px;
+    margin-top: 15px;
+    line-height: 30px;
+    text-decoration: none;
+}
+.section8-two{
+    color: #999;
+    text-align: center;
+    font-size: 14px;
+    margin-top: 325px;
+    line-height: 30px;
+}
+/* .Fs2 div ul{
+    position: relative;
+    margin-top: -15px;
+    text-align: left;
+    padding: 0px;
+    float: left;
+    list-style: none;
+    height: 100px;  
+}
+.Fs2 div ul li a{
+    font:normal 17px Helvetica,sans-serif;
+    text-decoration: none;    
+}
+.hs{
+    float: left;
+    padding-left: -1000px;
+} */
+/* .section6 .span-two div#one div{
+    width: 6px;
+    height: 6px;
+    padding-left: 30px;
+} */
+div#icons{
+    padding: 40px;
+}
+div#icons div span.one-s{
+    margin-right: 0px;
+}
+.section6 .span-two div#icons div{
+    float: left;
+}
+.section6 .span-two div#icons div span img{
+    float: left;
+    /* 120 × 80 px */
+    width: 120px;
+    height: 80px;
+}
+.one-s,.two-s,.three-s,.four-s,.five-s{
+    display: inline-block;
+    padding: 26px;
+    width: 120px;
+}
